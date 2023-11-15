@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="789deca4-4270-4baa-84fe-7f18c1e12cf6">
+  <producedTypes>
+    <managerType typeId="96261e9d-99af-4772-9931-c422de08b812" valueTypeId="223ff097-73ac-4baf-b938-124ead86abd5"/>
+    <valueManagerType typeId="15056006-2685-4b0b-a991-3d536568d452" valueTypeId="c52e932b-d621-4079-ab48-932e60376f37"/>
+    <valueKeyType typeId="11a9eb5a-4171-40a6-971b-e6f62fcebb40" valueTypeId="c73a8b0f-1723-4346-94b8-375c3b81c316"/>
+  </producedTypes>
+  <name>Порт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порт</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

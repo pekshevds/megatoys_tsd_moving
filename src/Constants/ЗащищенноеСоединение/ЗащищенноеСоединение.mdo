@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b723d3af-2ce5-4cfa-addf-5d7d4ee3a0b4">
+  <producedTypes>
+    <managerType typeId="4f39b167-aec8-4ec4-a0fc-52c7d8c0ae86" valueTypeId="53735dcb-30ea-4751-be17-de721dd42145"/>
+    <valueManagerType typeId="6ce5e42e-8531-44b9-a60b-f012f2bea577" valueTypeId="63264a89-dcd4-4cb3-8bc2-dcea8cf075b2"/>
+    <valueKeyType typeId="bf230bab-a0ed-48b7-b6c0-9b7ada226bbd" valueTypeId="8acb07fb-e7b4-4bc6-a194-8eea0a4e62ea"/>
+  </producedTypes>
+  <name>ЗащищенноеСоединение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Защищенное соединение</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

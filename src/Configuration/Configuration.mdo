@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e89e089-c0e7-4998-97b8-9ae4a6679dd8">
+  <name>TSD_Перемещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>TSD (перемещения)</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5f8388fc-0fec-4c2d-937b-4abda4bf357b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6552a547-1ed9-454f-b5d1-e5bbe1e4a1da"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e552ec1f-0bb0-46d5-9a13-70f1066fd5df"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4ab9aa01-062d-4822-827d-ecc7405c7541"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f7c20106-6d4c-456a-9ecd-96e3a3d93bed"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="542d6d9c-e360-4fea-b3cd-806536db7fe1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="65f2ae1d-06f6-4786-ad92-c4a78856d744"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Основная</defaultRoles>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="f847d293-a890-4501-81f4-eee8135d763c">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Основная</subsystems>
+  <roles>Role.Основная</roles>
+  <commonTemplates>CommonTemplate.AddIn</commonTemplates>
+  <commonModules>CommonModule.ОбменДанными</commonModules>
+  <commonModules>CommonModule.РаботаСКомпонентомСканераШтрихкодов</commonModules>
+  <constants>Constant.ЗащищенноеСоединение</constants>
+  <constants>Constant.ИмяБазы</constants>
+  <constants>Constant.ИмяСервера</constants>
+  <constants>Constant.Логин</constants>
+  <constants>Constant.Пароль</constants>
+  <constants>Constant.Порт</constants>
+  <constants>Constant.Префикс</constants>
+  <commonForms>CommonForm.Форма</commonForms>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <documents>Document.ПеремещениеТоваров</documents>
+  <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
+</mdclass:Configuration>
